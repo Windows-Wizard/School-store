@@ -1,0 +1,32 @@
+img{
+    max-width: 100%;
+}
+.logo{
+    width: 10%;
+    height: 10%;
+}
+.main-h{
+    text-align: center;
+}
+.main-p{
+    text-align: center;
+}
+p, a, .main-h, .main-p, h1, h2, h3, li, span, .catalogue-title, .post-title, .catalogue-time {
+    font-family:inherit ;
+}
+body{
+    background: #FAFAFA;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (prefers-color-scheme: dark) {
+    body{
+        color: #FFFFFF;
+        background-color: #242424;
+    }
+    .main-h{
+        background-color: #363636;
+        border-color: black;
+        color:#FFFFFF;
+    }
+}
