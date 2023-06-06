@@ -1,2 +1,2 @@
 # School-store
- school store project
+ school store project for IT II and CS classes
